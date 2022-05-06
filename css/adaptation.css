@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+
+    .header {
+        position: relative;
+        width: 100%;
+    }
+
+  .menu a {
+      display: none;
+    }
+  .menu a.icon {
+    float: right;
+    display: block;
+    background-color: 337ab7;
+  }
+}
+  .menu.responsive {position: relative;}
+  .menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+  }
+
+@media only screen and (max-width: 320px) {
+
+    
+    .courses {
+    display: flex;
+        flex-flow: column;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.courseinfo {
+    text-align: center;
+    padding-top: 0px;
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 1020px) {
+
+}
+}

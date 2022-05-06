@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>Layout 4</title>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/adaptation.css">
+      <meta name="viewport" content="width=device-width">
+  </head>
+    <body>
+    <header>
+        <div class="header">
+        <div calss="headerimg">
+            <img src="img/logo_Oxit.png" alt="logo" width="83" height="83">
+            </div>
+            <ul class="menu" id="navmenu">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#programm">Програма курсу</a></li>
+                <li><a href="#feedback">Відгуки про курс</a></li>
+                <li><a href="#video">Відео</a></li>
+                <li><a href="#mentors">Ментори</a></li>
+                <li><a href="#registration" class="application">Подати заявку</a></li>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </ul>
+        </div>
+        </header>
+        <content>
+            <div class="content">
+        <div class="courses">
+            <div class="courseinfo">
+            <h2>Курси програмування у Луцьку</h2>
+                <p>Сфера ІТ розвивається максимально швидко. Зараз дуже популярно здобувати освіту, що пов'язана з ІТ. Існує лише одна проблема - брак дійсно кваліфікованих спеціалістів в Україні. Під час навчання в університеті ми отримуємо мало практики і "живих", реальних кейсів. ІТ школа OxIT створила таку методику навчання, при якій за короткий час ви отримаєте необхідні знання, щоб стати ІТ спеціалістом. Чекаємо вас на наших курсах з програмування в Луцьку. Старт наступного курсу 3 серпня.</p>
+            </div>
+            <div class="registration">
+                <p id="registration">Зареєструватися на курси</p>
+                <form action="/action_page.php">
+                    <label for="fname">Ім'я</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ім'я">
+                    <label for="lname">Прізвище</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Прізвище">
+                    <label for="interests">Мене більше цікавить</label>
+                    <input type="text" id="interests" name="interests" placeholder="developer or QA">
+                    <label for="phone">Номер телефону</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Номер телефону: +38 XXX XX XX XXX">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <div class="checkbox">
+                    <input type="checkbox" id="agree" name="agree">
+                    <label for="agree">Я погоджуюся із <a href="#">Політикою Конфіденційності</a></label>
+                        </div>
+                    <input type="submit" value="Зареєструватися зараз">
+                </form>
+            </div>
+            </div>
+            <div class="webdevelopment">
+            <h2 id="programm">Курс «Розробка сайтів»</h2>
+                <div class="studying">
+                <div class="wordpress">
+                    <img src="img/icons/course-icon-1.png">
+                    <p>Розробка сайтів на WordPress</p>
+                    <hr>
+                    <p>Курс складається з коротких навчальних відео, на яких ти пізнаєш основи WordPress, навчишся створювати сайти різної складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових завдань
+                    </p>
+                    </div>
+                    <div class="drupal8">
+                        <img src="img/icons/course-icon-2.png">
+                    <p>Розробка сайтів на Drupal 8</p>
+                        <hr>
+                        <p>Для створення чудових сайтів на Drupal 8, цеглинка за цеглинкою, ти пізнаєш секрети основних та додаткових Drupal-модулів (Views, Rules, Panels, Devel, Paragraph та багатьох інших).</p>
+                    </div>
+                    <div class="qa">
+                    <img src="img/icons/course-icon-3.png">
+                        <p>Ознайомлення з тестуванням</p>
+                        <hr>
+                        Ти дізнаєш про забезпечення якості в контексті різних моделей розробки ПЗ. Також QA-спеціаліст розкаже про види тестування (функціональне, регресивне, системне, тестування швидкодії тощо).
+                    </div>
+                </div>
+            </div>
+            <div class="statistic">
+            <div class="stats1">
+                <img src="img/icons/statistic-icon-1.png" alt="icon1" width="80" height="70">
+                <p>25</p>
+                <p>курсів організовано</p>
+                </div>
+                <div class="stats2">
+                <img src="img/icons/statistic-icon-2.png" alt="icon2" widht="80" height="70">
+                    <p>836</p>
+                    <p>годин занять проведено</p>
+                </div>
+                <div class="stats3">
+                <img src="img/icons/statistic-icon-3.png" alt="icon3" width="80" height="70">
+                    <p>500</p>
+                    <p>студентів навчено</p>
+                </div>
+                <div class="stats4">
+                <img src="img/icons/statistic-icon-4.png" alt="icon4" width="80" height="70">
+                    <p>120</p>
+                    <p>випускників курсів працевлаштовано</p>
+                </div>
+            </div>
+            <div class="feedback">
+                <h2 id="feedback">Що кажуть студенти наших курсів:</h2>
+            <div class="container">
+                <div class="mySlides">
+                        <q>Під час проходження курсів Drupal у школі OxIT я навчився створювати не досить складні сайти та знайшов справу, якою хочу займатись. Після успішного завершення курсів мені дали можливість продовжити навчання вже в якості Intern Site Builder. Зараз я можу сказати, що Drupal та OxIT повністю змінили моє життя.</q>
+                            <p class="author">Коля</p>
+                            <p class="position">Drupal-девелопер</p>
+                        </div>
+                <div class="mySlides">
+                        <p>Lorean....</p>
+                </div>
+                <div class="mySlides">
+                        <p>Lorean...</p>
+                </div>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                </div>
+            <div class="video">
+            <div class="text">
+                <h2 id="video">Відео</h2>
+                <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.</p>
+                </div>
+                <div class="youtubevideo">
+                <iframe width="1020" height="515" src="https://www.youtube.com/embed/qEdviZqTDP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="mentors">
+                <h2 id="mentors">Наші ментори</h2>
+               <div class="slideshowcont"> 
+<div class="mySlide">
+  <img src="img/viktor.png" alt="viktor" width="200" height="200">
+  <div class="text1">
+                   <p>Віктор</p>
+                  <p>Майбутнім управлінцям неабияк пощастило - адже з ними ділитиметься досвідом управлінець із величезним досвідом! Сам засновник і CEO компанії InternetDevels, Віктор Левандовський, висловив бажання бути викладачем на курсах проект-менеджменту.</p>
+                 <p>Віктору є про що розповісти. Він знає про створення та керування великими компаніями, ефективну комунікацію, успішні проекти і багато іншого. При цьому він ніколи не скаже, що знає все - саморозвиток для нього не закінчується жодної хвилини.</p>
+                   <p>На книжкових полицях Віктора - сотні прочитаних книг про управління і не тільки. А от заповітні мрії не стоять на полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки нещодавно він передавав усім привіт з Ельбрусу - найвищої точки Європи. Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і досвід. І ви таке пропустите? Записуйтесь уже зараз!</p></div>
+</div>
+<div class="mySlide">
+<img src="img/mark.png" alt="mark" width="200" height="200">
+    <div class="text1"></div>
+</div>
+<div class="mySlide">
+<img src="img/vova.png" alt="vova" width="200" height="200">
+    <div class="text1"></div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+                </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.2977587646055!2d25.31561941610802!3d50.71441487951258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725997e35f529e9%3A0xeba249b67a64b0a9!2sInternetDevels!5e0!3m2!1sru!2sua!4v1651581505870!5m2!1sru!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacts">
+            <div class="phone">
+                <img src="img/icons/phone.png" alt="phone" width="40" height="40">
+                <p class="bold">Телефон</p>
+                <p><a href="tel:+380673321755">+38 067 332 17 55</a></p>
+                </div>
+                <div class="email">
+                <img src="img/icons/email.png" alt="email" width="40" height="40">
+                <p class="bold">E-mail</p>
+                    <p>office@it.volyn.ua</p>
+                </div>
+                <div class="adress">
+                <img src="img/icons/navigation.png" alt="navigation" width="40" height="40">
+                    <p class="bold">Адреса</p>
+                    <p>вул. Боженка 34г, Луцьк</p>
+                </div>
+                <div class="facebook">
+                <img src="img/icons/facebook.png" alt="facebook" width="40" height="40">
+                    <p class="bold">Facebook</p>
+                    <a href="https://www.facebook.com/oxitschool">facebook.com/oxitschool</a>
+                </div>
+            </div>
+                </div>
+                </div>
+            </content>
+        <footer>
+        <div class="footer">
+            <p>© Copyright 2018-2020 Internet Devels</p>
+            <a href="">Умови політики конфіденційності</a>
+            </div>
+        </footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    function myFunction() {
+    var x = document.getElementById("navmenu");
+    if (x.className === "menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu";
+    }
+    }
+</script>
+    </body>
+</html>
